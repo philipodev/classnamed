@@ -6,11 +6,14 @@
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^17.0.2"
+  },
   "devDependencies": {
     "@types/react": "^17.0.3",
     "react": "^17.0.2",
