@@ -2,6 +2,16 @@
 
 A slim and simple utility to make components with just classnames.
 
+### Installation
+`yarn add classnamed`
+
+or
+
+`npm install --save classnamed`
+
+
+### Usage
+
 ```JSX
 import classnamed from 'classnamed'
 
