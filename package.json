@@ -1,16 +1,20 @@
 {
   "name": "classnamed",
   "version": "1.0.0",
-  "description": "",
+  "description": "Create components with classnames",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
   "scripts": {
     "build": "tsc",
     "prepublish": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["react", "classname", "classes"],
+  "author": "Philip Oliver",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipodev/classnamed.git"
+  },
   "peerDependencies": {
     "react": "^17.0.2"
   },
