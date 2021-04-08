@@ -1,6 +1,6 @@
 {
   "name": "classnamed",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create components with classnames",
   "main": "dist/index.js",
   "types": "src/index.d.ts",
