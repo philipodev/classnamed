@@ -20,7 +20,11 @@ export function classname(template: string, args: any[], props: any): string[] {
         value = arg(props)
       }
 
-      classes.push(value.trim())
+      if(!(typeof value === "string")){
+        console.error("closure in classnamed did not return a string");
+      } else {
+        classes.push(value.trim())
+      }
     }
   }
 
