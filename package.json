@@ -8,12 +8,16 @@
     "build": "tsc",
     "prepublish": "npm run build"
   },
-  "keywords": ["react", "classname", "classes"],
+  "keywords": [
+    "react",
+    "classname",
+    "classes"
+  ],
   "author": "Philip Oliver",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/philipodev/classnamed.git"
+    "url": "git+https://github.com/philipodev/classnamed.git"
   },
   "peerDependencies": {
     "react": "^17.0.2"
@@ -22,5 +26,10 @@
     "@types/react": "^17.0.3",
     "react": "^17.0.2",
     "typescript": "^4.2.4"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/philipodev/classnamed/issues"
+  },
+  "homepage": "https://github.com/philipodev/classnamed#readme",
+  "dependencies": {}
 }
